@@ -1,0 +1,145 @@
+HTML : untuk membuat struktur halaman
+CSS : untuk menghias halaman
+Javascript : agar web lebih interaktif (untuk banyak hal) 
+
+* yang akan tampil di halaman web nya ada di dalam tag <body>
+* <p></p> paragraf
+* <title> memberikan judul halaman
+* tag di dalam <head>
+  - judul halaman <title></title>
+  - CSS <style></style>
+  - javascript <script></script>
+  - metadata <meta></meta>
+* tag bagian <body>
+  teks
+  - <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <p>
+  pendukung teks
+  - <br> menambahkan baris baru
+  - <hr> menambahkan garis horizontal
+  - <em> penekanan pada sebuah teks (italic)
+  - <strong> penekanan yang lebih tebal (bold) 
+
+  gambar
+  - <img>
+	<img src="">
+		- internal resource (logo.png, background.jpg,...)
+		- external resource (hotlink) tidak di sarankan
+	* atribut <img>
+	 - src
+	 - alt (untuk memberikan alternatif teks pada gambar)
+	 - title (memberikan judul pada gambar)
+	 - width 
+	 - height
+		<img width="" height="">
+		px (angka) dan % (halaman)
+
+	menggabungkan gambar dan hyperlink
+
+  hyperlink
+  - <a>
+	- Internal link
+	<a href=""</a>
+	- Relative URL
+	- page anchor
+	 bagian tertentu sebuah halaman
+	- target 
+	<a target=""></a>
+	- _self 
+	- _blank (saat klik link membuka tab baru)
+	- _parent
+	- _top
+  list (bullets & numbering)
+  - <ul> list tidak terurut
+	<ul type="circle"></ul>
+	- disc
+	- square
+	- circle
+  - <ol> list terurut
+	<ol type="1"></ol>
+	- 1
+	- A
+	- a
+	- I
+	- i
+  - <li>
+  - <dl> definition list (membuat terminologi dan deskripsi)
+     <dt>
+     <dd>
+	contoh :
+	<dl>
+		<dt><strong>HTML</strong></dt>
+		<dd>Hypertext Markup Language</dd>
+		<dt><strong>CSS</strong></dt>
+		<dd>Cascadng style sheet</dd>
+	</dl>
+
+
+  tabel
+  - <table>
+	<tr> (table row)
+		<td> (table data)
+		<th> (table header)
+  	- thead
+  	- tbody
+ table simple
+ table kompleks
+
+atribut table
+ - border (menambahkan garis) > gunakan CSS
+ - cellspacing (menambahkan jarak antar cell) > gunakan CSS
+ - cellpadding (memberi luas pada cell) > gunakan CSS
+ - colspan
+	digunakan untuk menggunakan menggabungkan 2 atau lebih kolom
+ - rowspan
+	digunakan untuk menggunakan menggabungkan 2 atau lebih baris
+
+  form
+  - <form>
+     - elemen form
+	- <input type="">
+	   - text
+	   - password
+	   - radio
+	   - checkbox
+	   
+	- textarea
+	- select
+	- <button type=""></button>
+	  - submit
+	  - reset
+	  - button
+	- label
+  - <input>
+  - <select>
+  - <button>
+
+  script
+  - <script>
+
+  object
+  - <object>
+
+  grouping
+  - <div>
+  - <span>
+
+  komentar (ctrl + /)
+  <!-- ini adalah komentar. -->
+
+* struktur tag
+  <namatag atribut="nilai">
+  contoh : <body bgcolor="lightblue">
+  
+  boleh banyak atribut
+  contoh : <body bgcolor="lightblue" id="myid" class="myclass">
+
+* atribut global
+  - accesskey
+  - class
+  - id
+  - dir
+  - lang
+  - style
+  - tabindex
+  - title
+
